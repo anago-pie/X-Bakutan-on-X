@@ -1,0 +1,1 @@
+function Ka(){L()}Ka();const Qa=new MutationObserver(()=>{Ka(),tc(),oc(),ac(),lc(),o()});Qa.observe(document.body,{childList:!0,subtree:!0});

@@ -1,0 +1,1 @@
+function o(){const e=document.querySelector('[style="animation-delay: 2500ms;"]');e&&e.remove()}
