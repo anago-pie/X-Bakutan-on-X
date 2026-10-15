@@ -1,0 +1,1 @@
+const c="image/favicon.ico",r=chrome.runtime.getURL(c);function i(e){let n=document.querySelector('link[rel~="icon"]');n||(n=document.createElement("link"),n.rel="icon",document.head.appendChild(n)),n.href!=e&&(n.href=e)}i(chrome.runtime.getURL(c));const m=new MutationObserver(()=>{i(r)});m.observe(document.head,{childList:!0,subtree:!0});
